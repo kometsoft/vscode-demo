@@ -19,34 +19,7 @@
         <h5>Alert</h5>
 
         <div class="alert alert-primary" role="alert">Code verification sent to your email!</div>
-
-        <hr />
-
-        <h5>Dropdown</h5>
-
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Options</button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Edit</a></li>
-          </ul>
-        </div>
-
-        <hr />
-
-        <h5>Scripts</h5>
-        <p>Refer script tag below</p>
       </div>
     </div>
-
-    <script>
-      fetch('https://catfact.ninja/fact')
-        .then((response) => response.json())
-        .then((data) => {
-          console.log(data)
-        })
-        .catch((error) => {
-          console.error('There was a problem with the fetch operation:', error)
-        })
-    </script>
   </body>
 </html>
